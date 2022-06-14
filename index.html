@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
-  <title>Food App</title>
+  <title>Recipe App</title>
 </head>
 <body>
   <div class="container">
@@ -18,34 +18,32 @@
       </blockquote>
     </div>
     <div class="search-section">
-      <form action="#">
+      <form for="submit-btn" action="#" id="form-field">
         <input id="search-text" class="input-field" type="text", placeholder="Enter an Ingredient">
-        <button class="search-btn" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
       </form>
     </div>
     <div class="food-section">
-      <div class="food-section-container">
+      <div class="food-section-container" id="food-container">
         <h3>Your Search Results: </h3>
 
-        <div class="foods-list">
+        <div class="foods-list" id="list">
           <!----Food Item Start -->
-          <div class="food-item">
+          <!-- <div class="food-item">
             <div class="food-img">
-              <img src="food.jpg" alt="food-image">
+              <img src="" alt="food-image">
             </div>
             <div class="food-info">
               <p>Vegetable Pizza</p>
               <button>GET RECIPE</Ri:a></button>
             </div>
-          </div>
+          </div> -->
           <!----Food Item End -->
         </div>
 
         <!---- Food Details Popup-->
 
-
-        <div class="food-popup-card">
-          <button id="close-popup"><i class="fa fa-times" aria-hidden="true"></i></button>
+        <div class="food-popup-card" id="popup">
+          <!-- <button id="close-popup"><i class="fa fa-times" aria-hidden="true"></i></button>
           <div class="food-details">
             <h4>Name of Food Here</h4>
             <p>Category</p>
@@ -59,9 +57,8 @@
           </div>
           <div class="youtube-video">
             <a href="#">Watch Video</a>
-          </div>
+          </div> -->
         </div>
-
 
         <!---- Food Details Popup-->
 
