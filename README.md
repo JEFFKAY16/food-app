@@ -3,7 +3,7 @@
 This project is about an exhibition app used to ---- :
 
 # See A Live Version
-[Try It Out]() 
+[Try It Out](https://jeffkayombo.me/food-app/) 
 
 ## Built With
 
