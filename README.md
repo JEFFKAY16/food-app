@@ -1,6 +1,6 @@
 # Food API-Webapp
 
-This project is about an exhibition app used to ---- :
+This project is about an a food app that allows you to search for your favourite meals by ingredients, get the recipe and instructions on how to prepare the meal. It uses TheMealDB: An open, crowd-sourced database of Recipes from around the world. They also offer a free [JSON API](https://www.themealdb.com/api.php) for anyone wanting to use it, with additional features for subscribers.
 
 # See A Live Version
 [Try It Out](https://jeffkayombo.me/food-app/) 
@@ -14,8 +14,7 @@ This project is about an exhibition app used to ---- :
 
 ## Aditional Resources
 
-* [Food API]()
-* [Involvment API]()
+* [Food API](https://www.themealdb.com/api.php)
 
 
 ## Getting Started
